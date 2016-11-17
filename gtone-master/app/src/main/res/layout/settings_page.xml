@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/settings_page">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbg"
+        android:weightSum="0.5"
+        >
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id= "@+id/rb1"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:drawableEnd="@android:drawable/btn_radio"
+            android:text="Silent mode"
+            android:layout_marginLeft="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id= "@+id/rb2"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:drawableEnd="@android:drawable/btn_radio"
+            android:text="Vibrate mode"
+            android:layout_marginLeft="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+
+
+
+    </RadioGroup>
+
+
+
+    <Button
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:text="Save"
+    android:id="@+id/savesetting"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+        android:background="#d10e8fcd"
+        android:textColor="#ffffffff"
+        android:elegantTextHeight="false"
+        android:typeface="sans"
+        style="@android:style/Widget.Button"
+        android:outlineProvider="background"
+        android:theme="@android:style/Widget.Button"/>
+
+
+</RelativeLayout>
+
+
+</LinearLayout>
