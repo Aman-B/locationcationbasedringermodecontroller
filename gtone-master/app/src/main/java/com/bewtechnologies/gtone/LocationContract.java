@@ -3,7 +3,7 @@ package com.bewtechnologies.gtone;
 import android.provider.BaseColumns;
 
 /**
- * Created by MAHE on 7/15/2015.
+ * Created by MAHE on 10/16/2016.
  */
 public final class LocationContract {
 
