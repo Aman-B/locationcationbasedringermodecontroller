@@ -15,9 +15,7 @@ import android.util.Log;
 
 import java.util.Calendar;
 
-/**
- * Created by Aman  on 7/23/2015.
- */
+
 
 
 public class AlarmReceiver extends BroadcastReceiver {
