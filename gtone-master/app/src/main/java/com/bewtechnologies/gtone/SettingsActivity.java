@@ -17,7 +17,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 /**
- * Created by Aman  on 7/21/2015.
+ * Created by Aman  on 10/21/2016.
  */
 
 public class SettingsActivity extends AppCompatActivity {
